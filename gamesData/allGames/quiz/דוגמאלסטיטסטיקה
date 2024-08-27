@@ -1,0 +1,17 @@
+const stasi = () => {
+    alert('set data' + score)
+    // // הזמן הכי קצר - השיא
+    //לא עושה טוב
+    const prevTime=localStorage.getItem("colorMinTime");
+    localStorage.setItem("colorMinTime", Math.min(prevTime,stopWatch));
+    // // מה הזמן שלך
+    sessionStorage.setItem("colorMyTime", stopWatch);
+    //בנקודות ומה השיא
+    const prevPoint=localStorage.getItem("colorMaxPoint");
+    localStorage.setItem("colorMaxPoint", Math.max(prevPoint, score));
+    // כמה נקודות יש לך 
+    sessionStorage.setItem("colorMyPoint", score);
+};
+dom.score.onclick = () => {
+    stasi();
+}

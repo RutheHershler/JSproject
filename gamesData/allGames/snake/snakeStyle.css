@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: row;
+    font-family: cursive;
+    font-size: xx-large;
+}
+#snakeConainer {
+     width: 60%;
+    height: 90vh; 
+    /*display: flex; 
+    flex-wrap: wrap; */
+    margin: auto;
+}
+.squerLine{
+    height: 15%;
+    display: flex;
+    margin: 0;
+}
+.squer {
+    border: 2px black solid;
+    width: 15%;
+    list-style: none;
+}
+#snake {
+    background-image: url(./src/snake.gif);
+    background-size: cover;
+}
+.snake_body{
+    background-color: #e2f609;
+}
+.apple {
+    background-image: url(./src/apple.gif);
+    background-size: cover;
+}
+.grapes{
+    background-image: url(./src/grapes.webp);
+    background-size: cover;
+}
+.banana{
+    background-image: url(./src/banana.webp);
+    background-size: cover;
+}
+#arrowContainer{
+    display: flex;
+    align-items: flex-end;
+}
+.arrow{
+    height: 20vh;
+}
+#upAndDoun{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./memorySTYLE.css">
+    <title>memory Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="toast show">
+        <div class="toast-header">
+      הוראות המשחק
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="toast"></button> -->
+        </div>
+        <div class="toast-body">
+            מצא את התמונה והמילה המתאימה לה
+
+        </div>
+    </div>
+    <div id="stop-watch"></div>
+    <div>
+        <div>הצלחת למצוא
+            <span id="pairs-amount">0</span>
+            זוגות
+        </div>
+
+
+        <form id="board">
+            <ul class="row">
+                <li class="col card-container"><img src="./src/cow.png" class="hidden-card  " /></li>
+                <li class="col card-container"><img src="./src/cow.webp" class="hidden-card  " /></li>
+                <li class="col card-container"><img src="./src/dog.png" class="hidden-card  " /></li>
+                <li class="col card-container"><img src="./src/dog.webp" class="hidden-card  " /></li>
+            </ul>
+            <ul class="row">
+                <li class="col card-container"><img src="./src/duck.png" class="hidden-card  " /></li>
+                <li class="col card-container"><img src="./src/duck.webp" class="hidden-card  " /></li>
+                <li class="col card-container"><img src="./src/elephant.png" class="hidden-card  " /></li>
+                <li class="col card-container"><img src="./src/elephant.webp" class="hidden-card  " /></li>
+            </ul>
+            <ul class="row">
+                <li class="col card-container"><img src="./src/fox.png" class="hidden-card  " /></li>
+                <li class="col card-container"><img src="./src/fox.webp" class="hidden-card  " /></li>
+                <li class="col card-container"><img src="./src/han.png" class="hidden-card  " /></li>
+                <li class="col card-container"><img src="./src/han.webp" class="hidden-card  " /></li>
+            </ul>
+            <ul class="row">
+                <li class="col card-container"><img src="./src/lion.png" class="hidden-card  " /></li>
+                <li class="col card-container"><img src="./src/lion.webp" class="hidden-card  " /></li>
+                <li class="col card-container"><img src="./src/monkey.png" class="hidden-card  " /></li>
+                <li class="col card-container"><img src="./src/monkey.webp" class="hidden-card  " /></li>
+            </ul>
+            <ul class="row">
+                <li class="col card-container"><img src="./src/rabbit.png" class="hidden-card  " /></li>
+                <li class="col card-container"><img src="./src/rabbit.webp" class="hidden-card  " /></li>
+                <li class="col card-container"><img src="./src/sheep.png" class="hidden-card  " /></li>
+                <li class="col card-container"><img src="./src/sheep.webp" class="hidden-card  " /></li>
+            </ul>
+        </form>
+</body>
+<script src="./memoryJS.js"></script>
+<!-- <script src="./bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script> -->
+
+
+</html>

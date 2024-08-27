@@ -1,0 +1,12 @@
+[
+ {"word":"elefant","translate":"פיל","src":"./assets/src/animal/elefant.webp"},
+ {"word":"fox","translate":"שועל","src":"./assets/src/animal/fox.webp"},
+ {"word":"sheep","translate":"כבשה","src":"./assets/src/animal/sheep.webp"},
+ {"word":"duck","translate":"ברווז","src":"./assets/src/animal/duck.webp"},
+ {"word":"dog","translate":"כלב","src":"./assets/src/animal/dog.webp"},
+ {"word":"monkey","translate":"קוף","src":"./assets/src/animal/monky.webp"},
+ {"word":"lion","translate":"אריה","src":"./assets/src/animal/lion.webp"},
+ {"word":"han","translate":"תרנגול","src":"./assets/src/animal/han.webp"},
+ {"word":"cow","translate":"פרה","src":"./assets/src/animal/cow.webp"},
+ {"word":"rabbit","translate":"ארנב","src":"./assets/src/animal/rabbit.webp"}
+]

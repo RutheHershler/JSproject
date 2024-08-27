@@ -1,0 +1,12 @@
+[
+ {"word":"airplane","translate":"מטוס","src":"../assets/src/transform/airplane.webp"},
+ {"word":"elicopter","translate":"אליקופטר","src":"../assets/src/transform/elicopter.webp"},
+ {"word":"ship","translate":"אוניה","src":"../assets/src/transform/ship.webp"},
+ {"word":"boat","translate":"סירה","src":"../assets/src/transform/bout.webp"},
+ {"word":"track","translate":"משאית","src":"../assets/src/transform/track.webp"},
+ {"word":"car","translate":"מכונית","src":"../assets/src/transform/car.webp"},
+ {"word":"schoolBus","translate":"אוטובוס","src":"../assets/src/transform/schoolbus.webp"},
+ {"word":"ambulance","translate":"אמבולנס","src":"../assets/src/transform/ambulance.webp"},
+ {"word":"van","translate":"טנדר","src":"../assets/src/transform/van.webp"},
+ {"word":"police","translate":"משטרה","src":"../assets/src/transform/poilce.webp"}
+]

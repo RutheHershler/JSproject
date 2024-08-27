@@ -1,0 +1,10 @@
+domStatistica={
+    liYourTime:document.getElementById('liYourTime'),
+    liCTime:document.getElementById('liCTime'),
+    liYourPoint:document.getElementById('liYourPoint'),
+    liCPoint:document.getElementById('liCPoint'),
+}
+domStatistica.liYourTime.innerHTML+=sessionStorage.getItem('MyTime');
+domStatistica.liYourPoint.innerHTML+=sessionStorage.getItem('MyPoint');
+domStatistica.liCTime.innerHTML+=localStorage.getItem('MinTime');
+domStatistica.liCPoint.innerHTML+=localStorage.getItem('MaxPoint');

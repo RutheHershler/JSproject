@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../fontawesome-free-5.12.0-web/css/all.css">
+    <link rel="stylesheet" href="../HomeStyle.css">
+    <link rel="stylesheet" href="../login/loginStyle.css">
+    <link rel="stylesheet" href="../chooseAvatar/chooseAvatarStyle.css">
+    <link rel="stylesheet" href="../bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <title>gamesData</title>
+</head>
+
+<body>
+
+    <div class="offcanvas offcanvas-start" id="demo">
+        <div class="offcanvas-header">
+            <h1 class="offcanvas-title"></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Search</p>
+            <p>What do you whant to search ? </p>
+            <p>write it here</p>
+            <input placeholder="look for" id="searchVal" type="search">
+            <div id="printItem"> </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top allPage">
+        <div class="container-fluid ">
+            <a href="../homeAndLogin.html"><i class="fas fa-home icon"></i></a>
+            <button id="searchBut" class="btn btn-primary subnavbtn" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#demo"><i class="fa fa-search icon"></i></button>
+            <a href="../statistical/index.html"><i class="fas fa-chart-area icon"></i></a>
+
+            <a href="../vocabulary/vocabulary.html" class="subnavbtn"><i class="fas fa-book-open icon"></i>
+            </a>
+            <a href="./allGames/quiz/QuizHome.html" class="subnavbtn"><i class="fas fa-edit icon"></i>
+            </a>
+            <div class="subnav">
+                <button class="subnavbtn"><i class="fas fa-gamepad icon"></i> <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content" style="height: 30vh; padding: 7%;">
+                    <a href="../gamesData/allGames/color/colors.html"><i class="fas fa-palette icon"></i>color</a>
+                    <a href="../gamesData/allGames/memory/memory.html"><i class="fas fa-th icon"></i>memory</a>
+                    <a href="../gamesData/allGames/order_abc/order_abc.html"><i
+                            class="fas fa-spell-check icon"></i>order_abc</a>
+                    <a href="../gamesData/allGames/snake/snake.html"><i class="fas fa-apple-alt icon"></i>snake</a>
+                    <a href="../gamesData/allGames/guess_my_name/guess_my_name.html"><i
+                            class="fas fa-question icon"></i>guess_my_name</a>
+                    <a href="../gamesData/allGames/learnToPlay/learnToPlay.html"><i
+                            class="fas fa-play-circle icon"></i>learnToPlay</a>
+                    <a href="./allGames/puzzel/puzzel.html"><i class="fas fa-puzzle-piece icon"></i>puzzel</a>
+                </div>
+            </div>
+
+    </nav>
+
+
+
+
+
+</body>
+<script src="../bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
+<script src="../jquery-3.6.4.min.js"></script>
+<script src="./searchJs.js"></script>
+<!-- <script src="./gameDataJS.js"></script> -->
+
+</html>

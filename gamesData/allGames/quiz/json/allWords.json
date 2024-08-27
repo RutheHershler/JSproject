@@ -1,0 +1,46 @@
+[
+    {"word":"elefant","translate":"פיל","src":"./assets/src/animal/elefant.webp"},
+    {"word":"fox","translate":"שועל","src":"./assets/src/animal/fox.webp"},
+    {"word":"sheep","translate":"כבשה","src":"./assets/src/animal/sheep.webp"},
+    {"word":"duck","translate":"ברווז","src":"./assets/src/animal/duck.webp"},
+    {"word":"dog","translate":"כלב","src":"./assets/src/animal/dog.webp"},
+    {"word":"monkey","translate":"קוף","src":"./assets/src/animal/monky.webp"},
+    {"word":"lion","translate":"אריה","src":"./assets/src/animal/lion.webp"},
+    {"word":"han","translate":"תרנגול","src":"./assets/src/animal/han.webp"},
+    {"word":"cow","translate":"פרה","src":"./assets/src/animal/cow.webp"},
+    {"word":"rabbit","translate":"ארנב","src":"./assets/src/animal/rabbit.webp"},
+
+    {"word":"apple","translate":"תפוח","src":"./assets/src/fruit/apple.webp"},
+    {"word":"banana","translate":"בננה","src":"./assets/src/fruit/banana.webp"},
+    {"word":"watermelon","translate":"אבטיח","src":"./assets/src/fruit/watermelon.webp"},
+    {"word":"cherry","translate":"דובדבן","src":"./assets/src/fruit/cherry.webp"},
+    {"word":"grapes","translate":"ענבים","src":"./assets/src/fruit/grape.webp"},
+    {"word":"peach","translate":"אפרסק","src":"./assets/src/fruit/peach.webp"},
+    {"word":"pear","translate":"אגס","src":"./assets/src/fruit/pear.webp"},
+    {"word":"strawberry","translate":"תות","src":"./assets/src/fruit/strawberry.webp"},
+    {"word":"lemon","translate":"לימון","src":"./assets/src/fruit/lemon.webp"},
+
+    {"word":"flower","translate":"פרח","src":"./assets/src/natural/flower.webp"},
+    {"word":"rainbow","translate":"קשת בענן","src":"./assets/src/natural/rainbow.webp"},
+    {"word":"clowd","translate":"ענן","src":"./assets/src/natural/clowd.webp"},
+    {"word":"river","translate":"נהר","src":"./assets/src/natural/river.webp"},
+    {"word":"sun","translate":"שמש","src":"./assets/src/natural/sun.webp"},
+    {"word":"snow","translate":"שלג","src":"./assets/src/natural/snow.webp"},
+    {"word":"moon","translate":"ירח","src":"./assets/src/natural/moon.webp"},
+    {"word":"tree","translate":"עץ","src":"./assets/src/natural/tree.webp"},
+    {"word":"leef","translate":"עלה","src":"./assets/src/natural/leef.webp"},
+    {"word":"world","translate":"כדור הארץ","src":"./assets/src/natural/world.webp"},
+
+    {"word":"airplane","translate":"מטוס","src":"./assets/src/transform/airplane.webp"},
+    {"word":"elicopter","translate":"אליקופטר","src":"./assets/src/transform/elicopter.webp"},
+    {"word":"ship","translate":"אוניה","src":"./assets/src/transform/ship.webp"},
+    {"word":"boat","translate":"סירה","src":"./assets/src/transform/bout.webp"},
+    {"word":"track","translate":"משאית","src":"./assets/src/transform/track.webp"},
+    {"word":"car","translate":"מכונית","src":"./assets/src/transform/car.webp"},
+    {"word":"schoolBus","translate":"אוטובוס","src":"./assets/src/transform/schoolbus.webp"},
+    {"word":"ambulance","translate":"אמבולנס","src":"./assets/src/transform/ambulance.webp"},
+    {"word":"van","translate":"טנדר","src":"./assets/src/transform/van.webp"},
+    {"word":"police","translate":"משטרה","src":"./assets/src/transform/poilce.webp"}
+      
+  ]
+  

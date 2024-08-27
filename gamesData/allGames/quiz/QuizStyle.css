@@ -1,0 +1,16 @@
+.quizQ {
+  font-size: 5vh;
+}
+
+.chooseQuiz {
+  font-size: -webkit-xxx-large;
+  /* width: 900px; */
+  /* height: 500px; */
+  /* size: 500px; */
+  width: 50%;
+  height: 50vh;
+  /* border-radius: 100%; */
+  /* border: 2px black solid; */
+  text-align: center;
+  text-decoration: none;
+}

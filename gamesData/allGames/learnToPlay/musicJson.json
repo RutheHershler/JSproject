@@ -1,0 +1,15 @@
+{
+    "music":[
+        {"word":"music","translate":"מוזיקה","src":"./"},
+        {"word":"song","translate":"שיר","src":"./"},
+        {"word":"singer","translate":"זמר","src":"./"},
+        {"word":"do","translate":"דו","src":"./"},
+        {"word":"re","translate":"רה","src":"./"},
+        {"word":"mi","translate":"מי","src":"./"},
+        {"word":"fa","translate":"פה","src":"./"},
+        {"word":"sol","translate":"סול","src":"./"},
+        {"word":"la","translate":"לה","src":"./"},
+        {"word":"si","translate":"סי","src":"./"}
+        
+    ]
+}

@@ -1,0 +1,8 @@
+[
+  {"word":"red","translate":"אדום","src":"./"},
+  {"word":"yellow","translate":"צהוב","src":"./"},
+  {"word":"blue","translate":"כחול","src":"./"},
+  {"word":"green","translate":"ירוק","src":"./"},
+  {"word":"black","translate":"שחור","src":"./"},
+  {"word":"white","translate":"לבן","src":"./"}
+]

@@ -1,0 +1,11 @@
+#printImg{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+.Item{
+    justify-content: center;
+    justify-items: center;
+}

@@ -1,0 +1,399 @@
+:root {
+    --grey: #efefef;
+    --green: rgb(0, 255, 0);
+    --red: red;
+    --blue: rgb(25, 0, 255);
+    --black: black;
+    --white: rgb(255, 255, 255);
+    --grey_h: #333;
+}
+
+#body8 {
+    width: 70%;
+    margin: auto;
+}
+
+/* banner */
+.container {
+    padding: 80px 120px;
+}
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+}
+
+.person:hover {
+    border-color: #f1f1f1;
+}
+
+#myCarousel {
+    width: 80%;
+    margin: auto;
+}
+
+img {
+    margin: auto;
+}
+
+.item {
+    margin: auto;
+    background-color: black;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* width: 80%; */
+    margin: auto;
+}
+
+#alufim {
+    margin: auto;
+    direction: rtl;
+}
+.reClass{
+    font-weight: bolder;
+}
+/* בפתורים  */
+.black {
+    background-color: var(--black);
+}
+
+.white {
+    background-color: var(--white);
+}
+
+.bigFont {
+    font-size: xx-large;
+}
+
+.smallFont {
+    font-size: medium;
+}
+
+/*  */
+#ul-top-nav {
+    display: flex;
+    list-style: none;
+    padding: 3%;
+}
+#container-fluid {
+    position: absolute;
+    top: 5%;
+}
+
+.i {
+    width: 100
+}
+
+#welcome {
+    margin-top: 1vh;
+}
+
+/* ניווט עליון 1 */
+#logo-top {
+    width: 250px;
+}
+
+.top-left {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    width: 100%;
+    align-items: center !important;
+    display: flex !important;
+    justify-content: space-between;
+    height: 70px;
+    /* position: absolute; */
+    position: fixed;
+    top: 0%;
+    z-index: 4;
+    background-color: #efefef;
+}
+
+
+.btn_top {
+    width: 120px;
+}
+
+/* אודות וכו */
+#ul4 {
+    display: flex;
+}
+
+.li {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 4%;
+    direction: rtl;
+    font-size: 1.2em;
+    text-align: right;
+    list-style: none;
+}
+
+
+.homeAdd>p {
+    width: 74%;
+    margin: auto;
+    text-align: center;
+    font-family: revert;
+    font-weight: 300;
+    font-size: 1.2em;
+
+}
+
+.homeAdd>h3 {
+    color: var(--blue);
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2.3076923076923075em;
+    font-weight: 200;
+}
+
+#add {
+    height: 40%;
+}
+
+h4 {
+    font-size: 1.53846em;
+    letter-spacing: -1px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#h41 {
+    color: var(--blue);
+
+}
+
+div>h3 {
+    margin-top: 10px;
+    font-size: 2.3076923076923075em;
+    font-weight: 200;
+}
+
+#h42 {
+    color: var(--red);
+    ;
+}
+
+#h43 {
+    color: var(--green);
+    ;
+}
+
+#h44 {
+    color: var(--blue);
+    ;
+}
+
+.homeAdd {
+    margin: 5% 0 10% 0;
+
+}
+
+.greyBackgruond {
+    background-color: var(--grey);
+    font-family: system-ui;
+    text-align: center;
+    color: #676a6c;
+
+}
+
+h2 {
+    display: inline-block;
+    border-top: 3px solid var(--green);
+}
+
+#GBMContainer {
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.nums {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5%;
+
+}
+
+.inernums {
+    line-height: 0.2;
+}
+
+#about {
+    color: var(--black);
+    background-color: var(--white);
+}
+
+#audioPlay {
+    width: 80%;
+    margin-left: 12%;
+}
+
+.navbar {
+    margin-top: 7%;
+    background-color: var(--grey_h);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+}
+
+.navbar a {
+    float: left;
+    font-size: 20px;
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+.subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: var(--white);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+#Home:hover {
+    background-color: var(--blue);
+
+}
+
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+    background-color: var(--red);
+}
+
+.navbar a:hover,
+.subnav #Home:hover .subnavbtn {
+    background-color: var(--blue);
+}
+
+#Statistica :hover {
+    background-color: var(--green);
+}
+
+#StatisticaIn {
+    background-color: var(--green);
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0%;
+    background-color: var(--red);
+    width: 100%;
+    z-index: 1;
+}
+
+.subnav-content a {
+    float: left;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.subnav-content a:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+.icon {
+    margin: 10px;
+    font-size: 48px;
+}
+
+.w-100 {
+    height: 60vh;
+    width: 80vh;
+    margin: auto;
+}
+
+.roundBtn {
+    border-radius: 100%;
+    opacity: 0.8;
+    color: var(--red);
+    text-decoration: none;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.up {
+    position: fixed;
+    z-index: 3;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    top: 88%;
+    width: 8vh;
+    height: 8%;
+}
+
+#helpBtn {
+    display: flex;
+    height: 19vh;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#helpBtn>a {
+
+    width: 8vh;
+    height: 39%;
+}
+
+/* #disabled,
+#light{
+    position: fixed;
+    z-index: 3;
+} */
+
+.target {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-center{
+    background-color: var(--grey);
+}
+.allPage{
+    display: flex;
+    flex-direction: column;
+}
+#gameAll{
+    float: none;
+    font-size: 20px;
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,0 +1,16 @@
+/* #avatarImg{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: center;
+}
+#chooseAvatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.selectAvatar{
+    border: 20px solid rgb(197, 15, 15);
+}  */
+

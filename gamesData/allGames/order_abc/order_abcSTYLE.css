@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    background-image: url('./logo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* opacity: 0.5; */
+
+}
+
+#squre {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 7%;
+}
+
+.squre {
+    width: 50px;
+    height: 50px;
+}
+
+.squre-border-game {
+    background-color: rgb(255, 255, 255);
+    color: rgb(57, 8, 8);
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ffff00;
+}
+
+.squre-border-game :hover {
+    background-color: rgb(255, 255, 255);
+
+    cursor: grab;
+}
+
+.squre-border-game-for-drop {
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    border: 1px solid #00009d;
+}
+
+.squre-border-game-for-drop:hover {
+    cursor: grab;
+}
+
+.red {
+    color: rgb(0, 83, 12);
+}
+
+#squre-drop {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 7%;
+}
+
+.squre-without-solid {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid #e7ff70; */
+}

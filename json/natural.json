@@ -1,0 +1,12 @@
+[
+ {"word":"flower","translate":"פרח","src":"../assets/src/natural/flower.webp"},
+ {"word":"rainbow","translate":"קשת בענן","src":"../assets/src/natural/rainbow.webp"},
+ {"word":"clowd","translate":"ענן","src":"../assets/src/natural/clowd.webp"},
+ {"word":"river","translate":"נהר","src":"../assets/src/natural/river.webp"},
+ {"word":"sun","translate":"שמש","src":"../assets/src/natural/sun.webp"},
+ {"word":"snow","translate":"שלג","src":"../assets/src/natural/snow.webp"},
+ {"word":"moon","translate":"ירח","src":"../assets/src/natural/moon.webp"},
+ {"word":"tree","translate":"עץ","src":"../assets/src/natural/tree.webp"},
+ {"word":"leef","translate":"עלה","src":"../assets/src/natural/leef.webp"},
+ {"word":"world","translate":"כדור הארץ","src":"../assets/src/natural/world.webp"}
+]

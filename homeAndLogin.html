@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-5.12.0-web/css/all.css">
+    <link rel="stylesheet" href="./HomeStyle.css">
+    <link rel="stylesheet" href="./login/loginStyle.css">
+    <link rel="stylesheet" href="./chooseAvatar/chooseAvatarStyle.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.0-dist/css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="../bootstrap-5.3.0-dist/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- <script src="../jquery-3.6.4.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>HomeAndLogin</title>
+</head>
+
+<body id="body">
+
+
+    <div class="header">
+        <div class="top-left">
+            <img id="myAvatar" src="./assets/avatar/none.png" alt="myAvatar">
+            <div id="welcome">שלום אורח</div>
+        </div>
+
+        <div id="div-top-nav">
+            <ul id="ul-top-nav">
+                <li>אודות</li>
+                <li>משחקים במספרים</li>
+                <li>איך זה עובד</li>
+                <li>אלופים ממליצים</li>
+                <li>צור קשר</li>
+            </ul>
+        </div>
+
+        <div class="top-left">
+            <img src="./assets/logo/logo.jpg" id="logo-top">
+        </div>
+    </div>
+
+
+
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container-fluid ">
+            <button onclick="document.getElementById('loginForm').style.display='block'" style="width:auto;"
+                id="Login"><i class="fas fa-user icon"></i></button>
+            <a href="./homeAndLogin.html"><i class="fas fa-home icon"></i></a>
+            <a href="mailto:aa@gmail.com"><i class="fas fa-envelope icon"></i></a>
+            <a href="./gamesData/gamesData.html"><i class="fas fa-gamepad icon"></i></a>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-start" id="demo">
+        <div class="offcanvas-header">
+            <h1 class="offcanvas-title"></h1>
+            <button class="button" type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Search</p>
+            <p>What do you whant to search ? </p>
+            <p>write it here</p>
+            <input placeholder="look for" id="searchVal" type="search">
+            <div id="printItem"> </div>
+        </div>
+    </div>
+    <div id="loginForm" class="modal">
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer" id="imgcontainerID">
+                <span onclick="document.getElementById('loginForm').style.display='none'" class="close"
+                    title="Close Modal">&times;
+                </span>
+                <div id="avatarImg">
+                    <img id="avatarDiv" src="./assets/avatar/none.png" alt="Avatar">
+                    <button class="button" onclick="document.getElementById('avatarFrom').style.display='block'"
+                        style="width:auto;" id="chooseAvatar"><i class="fas fa-user-edit"></i></button>
+                </div>
+            </div>
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input id="name" type="text" placeholder="Enter Username" name="uname" required>
+                <label for="psw"><b>Password</b></label>
+                <input id="passwd" type="password" placeholder="Enter Password" name="psw" required>
+                <button class="button" id="submit" type="submit">Login</button>
+                <button class="button" id="UseMyName" type="submit">Use My Name</button>
+                <button class="button" id="remember" type="submit">Remember me</button>
+            </div>
+        </form>
+    </div>
+    <div id="avatarFrom" class="modal">
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer" id="imgcontainerID">
+                <span onclick="document.getElementById('avatarFrom').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+                <img class="avatar" src="./assets/avatar/avatar1.gif" alt="avatar1">
+                <img class="avatar" src="./assets/avatar/avatar2.gif" alt="avatar2">
+                <img class="avatar" src="./assets/avatar/avatar3.gif" alt="avatar3">
+                <img class="avatar" src="./assets/avatar/avatar4.gif" alt="avatar4">
+                <img class="avatar" src="./assets/avatar/avatar5.gif" alt="avatar5">
+                <img class="avatar" src="./assets/avatar/avatar6.gif" alt="avatar6">
+            </div>
+        </form>
+    </div>
+
+    <!-- banner -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" style="width: 100%;  height: 500px; margin: auto;" role="listbox">
+            <div class="item active">
+                <img src="./assets/logo/ad.jpg" alt="New York" width="1200" height="700">
+                <div class="carousel-caption">
+                  
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./assets/logo/adver.jpg" alt="Chicago" width="1200" height="700">
+                <div class="carousel-caption">
+                  
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./assets/logo/computer.jpg" alt="Los Angeles" width="1200" height="700">
+                <div class="carousel-caption">
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+
+    <!-- <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button class="button" type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button class="button" type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button class="button" type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/logo/ad.jpg" alt="Los Angeles" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/logo/office.jpg" alt="Chicago" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/logo/computer.jpg" alt="New York" class="d-block w-100">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev button" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon "></span>
+        </button>
+        <button class="carousel-control-next button" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div> -->
+    <div id="body8">
+        <div id="add" class="homeAdd">
+            <ul id="ul4">
+                <li class="li">
+                    <h4 id="h41">הנאה כפולה</h4>
+                    אתר זה מעוצב ויזואלית בטכנולוגיות חדשניות
+                    באמצעות התוכנות הטובות ביותר לנוחות השחקן
+                    האתר מתעדכן תדיר ובעז"ה בקרוב טכנולוגיות חדשניות
+                </li>
+                <li class="li">
+                    <h4 id="h42">רמתך בדיקת האישית</h4>
+                    על ידי בוחן בסיום כל משחק
+                    תוכל לראות את התקדמותך בשפת האנגלית
+                    ולשפר את רמתך
+                </li>
+                <li class="li">
+                    <h4 id="h43">פרופיל אישי</h4>
+                    אצלנו תוכלו להתאים את הפרופיל בדיוק לטעם שלכם
+                    ממשק חדשני רב תכונות המאפשר להגדיר פרופילים ממגוון רחב
+                </li>
+                <li class="li">
+                    <h4 id="h44">מילון </h4>
+                    אוצר מילים רחב עבור המשתמש
+                    המקנה ידיעה והבנה במגוון רחב של קטגוריות
+                </li>
+            </ul>
+        </div>
+        <div class="greyBackgruond">
+            <div id="h2">
+                <h2> game your language </h2>
+                <br />
+                <h3> במספרים</h3>
+            </div>
+            <div id="GBMContainer">
+                <div class="nums">
+                    <div class="inernums">
+                        <h5>123</h5>
+                        <h5>שחקנים ששחקו</h5>
+                    </div>
+                    <div class="inernums">
+                        <h5>52</h5>
+                        <h5> שיאים נשברו</h5>
+                    </div>
+                </div>
+                <div><img src="./assets/logo/office.jpg"></div>
+                <div class="nums">
+                    <div class="inernums">
+                        <h5>989898</h5>
+                        <h5> שעות שימוש</h5>
+                    </div>
+                    <div class="inernums">
+                        <h5>89</h5>
+                        <h5> משתמשים לאתר</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="about" class="homeAdd">
+            <h3>אודות</h3>
+            <p>
+               
+                אתר זה הוקם מתוך הבנה שלימוד שפה חדשה הינו דבר מהנה לכל דבר ועניין.
+                <br/>
+                מטרת האתר שלנו היא שכל ילד או ילדה הרוצים ללמוד את שפת האנגלית,
+                יוכלו לעשות זאת בצורה חוויתית יוצאת דופן
+                <br/>
+                ולהגיע לתוצאות מיוחדות של רמת אנמגלית טובה במיוחד!
+                אנו משתמשים בכלים טכנולוגיים מתקדמים ביותר,
+                <br/>
+                על מנת לתת לך את האפשרות הטובה ביותר להתקדם ברמה שלך,
+                באתר זה הושקעו משאבים אדירים בפיתוח טכנולוגי ולוגי,
+                <br/>
+                ההתפתחות נמשכת כל הזמן ללא לאות, כדי לשפר ולהביא לפניכם את המקסימום האפשרי בצורה טובה וחכמה.
+                ולאפשר פתיחה נוספת של שפות שעדיין אי אפשר ללמוד באתר שלנו.
+            </p>
+        </div>
+        <!-- <div id="friendsSpeak" class="homeAdd">
+        <h3>חברים ממליצים:</h3>
+        <p></p>
+    </div> -->
+        <div id="" class="homeAdd">
+            <video src="./play.mp4" autoplay loop controls preload="auto" id="audioPlay"></video>
+        </div>
+        <div id="howWork" class="homeAdd greyBackgruond">
+            <h3>איך זה עובד?</h3>
+            <p>
+                משתמשי האתר שלנו נהנים ממגוון רחב של משחקים שמטרתם לשפר את האנגלית שלך ולהעשיר את אוצר המילים של המשתמש,
+                <br/>
+                בשביל להכנס לאתר יש להרשם בלוגין - הרשמה ולבחור תמונת פרופיל לפי טעמך האישי.
+                כעת תפתח לך האפשרות להתחיל בלמידה,
+                <br/>
+                כל משחק שקיים במערכת, מסווג לקטגוריה שונה של מילים :
+                משחק הזיכרון - חיות
+                נגינה-
+                וכוכוכוכו'
+                <br/>
+            </p>
+        </div>
+
+        <!--  -->
+        <div id="alufim">
+            <h1>|אלופים ממליצים </h1>
+            <ul id="reference-list"></ul>
+            <form id="add-reference-form">
+                <!-- <div id="content-ref"> -->
+                <input class="inContant" type="text" name="task" id="task" placeholder="השם שלי:" /><br />
+                <input class="inContant" type="text" max="500" name="owner" id="owner"
+                    placeholder="ההמלצה שלי לאלופים" /><br />
+                <button id="new-task-btn" type="button" class="inContant">הוספת המלצה להמלצות שלנו</button>
+                <!-- </div> -->
+            </form>
+        </div>
+
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1> צור קשר </h1>
+            <div class="row">
+                <div class="col-lg-12 features-text text-center">
+
+                    <span style="font-size: 24px; color: #828D86;">
+                        שימו לב!
+                    </span>
+                    <br>
+                    <br>
+                    <span style="font-size: 24px; color: #828D86;">
+                        בפניות בנושאי האתר בלבד!:
+                    </span>
+                    <p style="font-size: 20px; margin-top: 9px;">
+                        יש להשאיר הודעה ונחזור אליכם
+                    </p>
+                    <a href="mailto:aa@gmail.com">להשארת הודעה</a>
+                    <br>
+                    <span style="font-size: 24px; color: #828D86;">
+                        בפניות בכל עניין אחר :
+                    </span>
+                    <p style="font-size: 20px; margin-top: 9px;">
+                        תלונות, הערות, בקשות, ביקורות, שאלות וכדו'
+                        <br>
+                        יש לפנות אך ורק לשרות התמיכה שלנו,
+                        <br>
+                        באמצעות <a class="navy-link" href="" target="_blank"> מרכז הפניות</a>
+                        <br>
+                        <br>
+                        למידע טלפוני:
+                        <br>
+                        058-327-3923 חני:
+                        <br>
+                        רבקי:058-323-5847
+                        <br>
+                        רותי : 055-6766-460
+                        <br>
+                        <br>
+                        למידע נוסף ניתן לפנות אלינו באמצעות הדוא"ל
+                        <br>
+
+                        <a class="navy-link" href="mailto:info@game.link">
+                            info@Game.link
+                        </a>
+
+                        <br>
+                        <br>
+
+
+
+
+                        <br>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div>
+        <a href="#" class="roundBtn up"><i class=" fas fa-angle-up"></i> </a>
+        <div id="helpBtn">
+
+            <a class="roundBtn" id="light"><i class=" fa fa-toggle-on" id="icone"></i> </a>
+            <a class="roundBtn" id="disabled"><i class=" fa fa-wheelchair"></i> </a>
+        </div>
+    </div>
+    <script src="./bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./jquery-3.6.4.min.js"></script>
+    <script src="./searchJs.js"></script>
+    <script src="./homeAndLogin.js"></script>
+</body>
+
+</html>

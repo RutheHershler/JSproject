@@ -1,0 +1,11 @@
+[
+  {"word":"apple","translate":"תפוח","src":"../assets/src/fruit/apple.webp"},
+  {"word":"banana","translate":"בננה","src":"../assets/src/fruit/banana.webp"},
+  {"word":"watermelon","translate":"אבטיח","src":"../assets/src/fruit/watermelon.webp"},
+  {"word":"cherry","translate":"דובדבן","src":"../assets/src/fruit/cherry.webp"},
+  {"word":"grapes","translate":"ענבים","src":"../assets/src/fruit/grape.webp"},
+  {"word":"peach","translate":"אפרסק","src":"../assets/src/fruit/peach.webp"},
+  {"word":"pear","translate":"אגס","src":"../assets/src/fruit/pear.webp"},
+  {"word":"strawberry","translate":"תות","src":"../assets/src/fruit/strawberry.webp"},
+  {"word":"lemon","translate":"לימון","src":"../assets/src/fruit/lemon.webp"}
+]
